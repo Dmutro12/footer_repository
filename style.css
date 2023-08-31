@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bodys {
+    display: flex;
+    background-color: #000;
+    height: 10em;
+    padding: 2em 3em;
+}
+
+.bodys-ht h3 {
+    flex-direction: row;
+    color: beige;
+}
+
+.bodys-ht p {
+    margin-left: 0;
+    text-align: left;
+    color: beige;
+    font-weight: bolder;
+    margin-right: 0;
+}
+
+.wrap-inforys {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.wrap-infor {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6em;
+    list-style-type: none;
+    text-align: left;
+}
+
+.guys-lip:hover {
+    color:  rgba(75, 72, 69, 0.646)
+}
+
+.guys-lip {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+}
