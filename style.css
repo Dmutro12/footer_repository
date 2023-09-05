@@ -12,13 +12,13 @@ body {
 
 .bodys-ht h3 {
     flex-direction: row;
-    color: beige;
+    color: azure;
 }
 
 .bodys-ht p {
     margin-left: 0;
     text-align: left;
-    color: beige;
+    color: azure;
     font-weight: bolder;
     margin-right: 0;
 }
@@ -40,11 +40,20 @@ body {
 }
 
 .guys-lip:hover {
-    color:  rgba(75, 72, 69, 0.646)
+    color:  rgba(75, 72, 69, 0.646);
 }
 
 .guys-lip {
     text-decoration: none;
-    color: beige;
+    color: azure;
     font-weight: bold;
+}
+
+.Artem {
+    text-decoration: none;
+    color: azure;
+}
+
+.Artem:hover {
+    color: rgba(75, 72, 69, 0.646);
 }
